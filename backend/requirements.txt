@@ -1,0 +1,16 @@
+Flask==3.0.3
+flask-cors==6.0.1
+requests==2.32.3
+pillow==10.3.0
+numpy
+ultralytics==8.3.228
+opencv-python==4.12.0.88
+opencv-python-headless==4.10.0.82
+supabase==2.9.0
+gunicorn
+imageio
+urllib3
+uuid
+pydantic
+shapely
+python-dotenv

@@ -1,0 +1,30 @@
+{
+    "input_image": {    
+        "image_id": "sample1.png",
+        "image_url": "https://raw.githubusercontent.com/jugal-sac/InterIIT_dataset_sample/refs/heads/main/sample2.png",
+        "metadata": {
+            "width": 512,
+            "height": 512,
+            "spatial_resolution_m": 1.57
+        }
+    },
+    "queries": {
+        "caption_query": {
+            "instruction": "Generate a detailed caption describing all visible elements in the satellite image, including object types, counts, relative locations, and overall scene context."
+        },
+        "grounding_query": {
+            "instruction": "Locate the swimming pool in the image."
+        },
+        "attribute_query": {
+            "binary": {
+                "instruction": "Is there any digit present in the bottom right corner of the scene?"
+            },
+            "numeric": {
+                "instruction": "How many storage tanks are present in the scene?"
+            },
+            "semantic": {
+                "instruction": "What is the color of the digit painted on the landing strip?"
+            }
+        }
+    }
+}

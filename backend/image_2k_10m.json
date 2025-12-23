@@ -1,0 +1,33 @@
+{
+    "input_image": {    
+        "image_id": "image_2k_10m.png",
+        "image_url": "https://i.ibb.co/5gkYkRKZ/image-2k-10m-png-clahe.png",
+        "metadata": {
+            "width": 2048,
+            "height": 2048,
+            "spatial_resolution_m": 10
+        }
+    },
+
+    "queries": {
+        "caption_query": {
+            "instruction": "Generate a detailed caption describing the major visible elements in the satellite image such as urban areas, vegetation, and water bodies."
+        },
+
+        "grounding_query": {
+            "instruction": "Locate and return a bounding box around the main river visible in the image."
+        },
+
+        "attribute_query": {
+            "binary": {
+                "instruction": "Is there a river present in the image?"
+            },
+            "numeric": {
+                "instruction": "How many major water bodies are visible?"
+            },
+            "semantic": {
+                "instruction": "What type of land cover is most dominant: urban, vegetation, or water?"
+            }
+        }
+    }
+}
