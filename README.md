@@ -50,6 +50,6 @@ This project integrates multiple open-source models and libraries. Each componen
 - **SAM 3** - Distributed under a custom Meta license that grants a non-exclusive, royalty-free license for use and redistribution, subject to specific attribution and compliance terms.
 - **RemoteCLIP** - Licensed under Apache 2.0, allowing for free commercial use, modification, and distribution.
 
-Please refer to individual documentation files for specific citations and acknowledgments.
+Please refer to individual documentation files for specific citations and acknowledgments for all the details.
 
 ---
